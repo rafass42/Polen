@@ -1,0 +1,45 @@
+a { color: #FFFFFF; } 
+ 
+.infoP{
+  padding-left: 40px;
+}
+.logoP{
+  
+}
+.footer {
+  
+  display: flex;
+  align-items:center; 
+  justify-content:center;
+  height: 400px;
+  background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
+}
+.footer2 {
+  
+  display: flex;
+  align-items:center; 
+  justify-content:center;
+  height: 400px;
+  
+}
+
+.fundo{
+  background: linear-gradient(180deg, #EB644E 15.52%, #EE7A3C 45%);
+}
+
+.fontNav{
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+
+font-size: 17px;
+line-height: 20px;
+
+}
+
+.navbar-nav > li{
+  padding-left:35px;
+  padding-right:25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
