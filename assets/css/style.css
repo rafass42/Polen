@@ -20,9 +20,12 @@ a { color: #FFFFFF; }
   align-items:center; 
   justify-content:center;
   height: 400px;
-  
+    
 }
 
+.fundo2{
+  background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
+}
 .fundo{
   background: linear-gradient(180deg, #EB644E 15.52%, #EE7A3C 45%);
 }
