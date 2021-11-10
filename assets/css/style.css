@@ -11,21 +11,13 @@ a { color: #FFFFFF; }
   display: flex;
   align-items:center; 
   justify-content:center;
-  height: 400px;
-  background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
-}
-.footer2 {
   
-  display: flex;
-  align-items:center; 
-  justify-content:center;
-  height: 400px;
-    
+  background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
 }
 
-.fundo2{
-  background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
-}
+
+
+
 .fundo{
   background: linear-gradient(180deg, #EB644E 15.52%, #EE7A3C 45%);
 }
@@ -45,4 +37,52 @@ line-height: 20px;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #FFFFFF;
+}
+
+.inter{
+  
+  background-image: ("../images/produtos/inter.jpg");
+
+
+border-radius: 174px;
+
+}
+
+.produtos-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 55), rgba(0, 0, 0, 0.041));
+   
+  background-position: center;  
+  background-size: cover;
+  border-radius: 174.619px;  
+  width: 412px;
+  height: 255px;
+}
+
+.produtos-text {
+  font-family: Roboto;
+  color: white;
+  
+  font-size: 30px;
+  text-align:left;
+  margin-left: 25px;
+  margin-top: 150px;
+  
+}
+.produtos-text2 {
+  font-family: Roboto;
+  color: white;
+  
+  font-size: 27px;
+  text-align:left;
+  margin-left: 24px;
+  margin-top: 95px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+nav li {
+  list-style: none;
+  cursor: pointer;
+}
+.nav-item a:hover {
+  color: #0b3e80 !important;
 }
