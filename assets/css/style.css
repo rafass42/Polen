@@ -6,31 +6,22 @@ a { color: #FFFFFF; }
 .logoP{
   
 }
-.footer {
-  
+.footer {  
   display: flex;
   align-items:center; 
   justify-content:center;
-  
   background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
 }
-
-
-
 
 .fundo{
   background: linear-gradient(180deg, #EB644E 15.52%, #EE7A3C 45%);
 }
 
 .fontNav{
-
 font-style: normal;
-
 font-size: 17px;
 line-height: 20px;
-
 }
-
 .navbar-nav > li{
   padding-left:35px;
   padding-right:25px;
@@ -38,19 +29,8 @@ line-height: 20px;
 .navbar-dark .navbar-nav .nav-link {
   color: #FFFFFF;
 }
-
-.inter{
-  
-  background-image: ("../images/produtos/inter.jpg");
-
-
-border-radius: 174px;
-
-}
-
 .produtos-image {
   background-image: linear-gradient(rgba(0, 0, 0, 55), rgba(0, 0, 0, 0.041));
-   
   background-position: center;  
   background-size: cover;
   border-radius: 174.619px;  
@@ -60,8 +40,7 @@ border-radius: 174px;
 
 .produtos-text {
   font-family: Roboto;
-  color: white;
-  
+  color: white;  
   font-size: 30px;
   text-align:left;
   margin-left: 25px;
@@ -70,8 +49,7 @@ border-radius: 174px;
 }
 .produtos-text2 {
   font-family: Roboto;
-  color: white;
-  
+  color: white;  
   font-size: 27px;
   text-align:left;
   margin-left: 24px;
@@ -79,10 +57,3 @@ border-radius: 174px;
   text-shadow: 2px 2px 4px #000;
 }
 
-nav li {
-  list-style: none;
-  cursor: pointer;
-}
-.nav-item a:hover {
-  color: #0b3e80 !important;
-}
