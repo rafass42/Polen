@@ -3,6 +3,132 @@ a {
 }
 
 .infoP {
+	padding-left: 40px;
+}
+.logoP {
+}
+
+.fundo {
+	background: linear-gradient(180deg, #eb644e 15.52%, #ee7a3c 45%);
+}
+
+.fontNav {
+	font-style: normal;
+	font-size: 17px;
+	line-height: 20px;
+}
+.navbar-nav > li {
+	padding-left: 35px;
+	padding-right: 25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff;
+}
+.produtos-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 55), rgba(0, 0, 0, 0.041));
+	background-position: center;
+	background-size: cover;
+	border-radius: 174.619px;
+	width: 412px;
+	height: 255px;
+}
+
+.produtos-text {
+	font-family: Roboto;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 150px;
+}
+.produtos-text2 {
+	font-family: Roboto;
+	color: white;
+	font-size: 27px;
+	text-align: left;
+	margin-left: 24px;
+	margin-top: 95px;
+	text-shadow: 2px 2px 4px #000;
+}
+
+/* Estilo Destaque Home*/
+.destaque-home {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.destaque-home h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.destaque-numeros {
+  text-align: center;
+}
+
+.destaque-numeros h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.destaque-numeros p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.destaque-borda {
+  border-left: 5px solid #ffffff;
+}
+
+/* Estilo do Footer */
+.footer {
+	background: linear-gradient(180deg, #ee7a3c 0%, #ea5e53 46.93%);
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer-logo figure {
+	width: 180px;
+	height: 150px;
+  margin-bottom: 0;
+}
+
+.footer-social {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-social li {
+	display: inline-block;
+  padding: 8px;
+}
+
+.footer-social li a {
+  vertical-align: middle;
+}
+
+.footer h5 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.footer a {
+	font-weight: 700;
+	text-decoration: none;
+
+	-webkit-transition: color 0.5s, font-size 0.5s;
+	transition: color 0.5s, font-size 0.5s;
+}
+
+.footer a:hover {
+	color: #031D44;
+}
+
+.infoP {
   padding-left: 40px;
 }
 .logoP {
