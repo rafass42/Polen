@@ -146,3 +146,29 @@ a {
   font-weight: bold;
   font-size: 16px;
 }
+
+.qmSomos-image{
+  
+  background-position: center;  
+  background-size: cover;
+  border-radius: 174.619px;  
+  width: 1303px;
+  height: 386px;
+}
+
+.qmSomos-textL{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  
+}
+
+.qmSomos-foto {
+  width: 128px;
+  height: 128px;
+}
+
+.qmSomos-foto img {
+  height: 100%;
+  object-fit: cover;
+}
