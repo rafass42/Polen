@@ -51,6 +51,36 @@ a {
 	text-shadow: 2px 2px 4px #000;
 }
 
+/* Estilo Destaque Home*/
+.destaque-home {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.destaque-home h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.destaque-numeros {
+  text-align: center;
+}
+
+.destaque-numeros h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.destaque-numeros p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.destaque-borda {
+  border-left: 5px solid #ffffff;
+}
+
 /* Estilo do Footer */
 .footer {
 	background: linear-gradient(180deg, #ee7a3c 0%, #ea5e53 46.93%);
