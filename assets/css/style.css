@@ -1,59 +1,148 @@
-a { color: #FFFFFF; } 
- 
-.infoP{
+a {
+  color: #ffffff;
+}
+
+.infoP {
   padding-left: 40px;
 }
-.logoP{
-  
+.logoP {
 }
-.footer {  
+.footer {
   display: flex;
-  align-items:center; 
-  justify-content:center;
-  background: linear-gradient(180deg, #EE7A3C 0%, #EA5E53 46.93%);
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #ee7a3c 0%, #ea5e53 46.93%);
 }
 
-.fundo{
-  background: linear-gradient(180deg, #EB644E 15.52%, #EE7A3C 45%);
+.fundo {
+  background: linear-gradient(180deg, #eb644e 15.52%, #ee7a3c 45%);
 }
 
-.fontNav{
-font-style: normal;
-font-size: 17px;
-line-height: 20px;
+.fontNav {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
 }
-.navbar-nav > li{
-  padding-left:35px;
-  padding-right:25px;
+.navbar-nav > li {
+  padding-left: 35px;
+  padding-right: 25px;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .produtos-image {
   background-image: linear-gradient(rgba(0, 0, 0, 55), rgba(0, 0, 0, 0.041));
-  background-position: center;  
+  background-position: center;
   background-size: cover;
-  border-radius: 174.619px;  
+  border-radius: 174.619px;
   width: 412px;
   height: 255px;
 }
 
 .produtos-text {
   font-family: Roboto;
-  color: white;  
+  color: white;
   font-size: 30px;
-  text-align:left;
+  text-align: left;
   margin-left: 25px;
   margin-top: 150px;
-  
 }
 .produtos-text2 {
   font-family: Roboto;
-  color: white;  
+  color: white;
   font-size: 27px;
-  text-align:left;
+  text-align: left;
   margin-left: 24px;
   margin-top: 95px;
   text-shadow: 2px 2px 4px #000;
 }
 
+#contato-titulo {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+
+  color: #ffffff;
+}
+
+#contato-subtitulo {
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.contato-lista-item {
+  padding: 10px;
+  min-width: 202px;
+  margin: 30px 50px;
+  display: inline-block;
+  color: #fff;
+}
+
+.contato-lista-item:hover {
+  padding: 10px;
+  background: #ee7a3c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+#contato-container {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+}
+
+#contato-container label {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #585959;
+}
+
+#contato-container input {
+  width: 256.71px;
+  height: 32.45px;
+  margin-bottom: 10px;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+#contato-container textarea {
+  height: 165px;
+  resize: none;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.contato-servico-botoes {
+  border: 0;
+  padding: 5px 20px;
+  margin: 0 10px;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+#contato-enviar {
+  border: 0;
+  padding: 5px 20px;
+  color: white;
+  background: #ee7a3c;
+  border-radius: 8px;
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+}
