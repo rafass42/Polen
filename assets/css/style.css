@@ -52,32 +52,32 @@ a {
 }
 
 /* Estilo Destaque Home*/
-.destaque-home {
+.home-destaque {
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
 
-.destaque-home h1 {
+.home-destaque h1 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.destaque-numeros {
+.home-destaque-numeros {
   text-align: center;
 }
 
-.destaque-numeros h2 {
+.home-destaque-numeros h2 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.destaque-numeros p {
+.home-destaque-numeros p {
   font-size: 20px;
   font-weight: 500;
 }
 
-.destaque-borda {
+.home-destaque-borda {
   border-left: 5px solid #ffffff;
 }
 
