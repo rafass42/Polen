@@ -56,32 +56,32 @@ a {
 }
 
 /* Estilo Destaque Home*/
-.destaque-home {
+.home-destaque {
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
 
-.destaque-home h1 {
+.home-destaque h1 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.destaque-numeros {
+.home-destaque-numeros {
   text-align: center;
 }
 
-.destaque-numeros h2 {
+.home-destaque-numeros h2 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.destaque-numeros p {
+.home-destaque-numeros p {
   font-size: 20px;
   font-weight: 500;
 }
 
-.destaque-borda {
+.home-destaque-borda {
   border-left: 5px solid #ffffff;
 }
 
@@ -135,13 +135,8 @@ a {
 .infoP {
   padding-left: 40px;
 }
+
 .logoP {
-}
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg, #ee7a3c 0%, #ea5e53 46.93%);
 }
 
 .fundo {
@@ -331,6 +326,148 @@ a {
   object-position: top center;
   width: 100%;
 }
+
+.home-quemsomos {
+  background-color: #ffffff;
+}
+
+.home-quemsomos h2 {
+  color: #EE7A3C;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.font-default {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text-color-default {
+  color: #585959;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.btn-polen {
+  color: #ffffff;
+  background-color: #EE7A3C;
+  border-color: #F7AD31;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 6px 30px 6px 30px;
+}
+
+.home-produtos {
+  background-color: #EA5E53;
+}
+
+.home-produtos h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.home-produto figure {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-produto img {
+  margin: 8px;
+  object-fit: contain;
+}
+
+.home-produto p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn-polen-branco {
+  color: #EE7A3C;
+  background-color: #ffffff;
+  border-color: #eee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 6px 30px 6px 30px;
+}
+
+.home-ecossistema {
+  background-color: #ffffff;
+}
+
+.home-ecossistema h2, h3 {
+  color: #EE7A3C;
+  font-weight: 700;
+}
+
+.home-ecossistema h2 {
+  font-size: 40px;
+}
+
+.home-ecossistema h3 {
+  font-style: 24px;
+}
+
+.home-ecossistema-box {
+  border: 5px solid rgba(0, 0, 0, 0.28);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 75px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -680px;
+  background: #fff;
+}
+
+.colecao-logos {
+  text-align: center;
+}
+
+.colecao-logos img {
+  margin: 8px 16px 8px 16px;
+  max-width: 185px;
+  object-fit: contain;
+}
+
+.home-depoimentos {
+  background: linear-gradient(270deg, #EE7A3C -0.69%, #EA5E53 50%);
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 700px !important;
+}
+
+.home-depoimentos p {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.home-depoimentos .simbolo-aspas {
+  font-weight: bold;
+  font-size: 218px;
+  color:white;
+  margin-left: -25px;
+}
+
+.home-depoimentos .texto-depoimento {
+  margin-top: -168px;
+}
+
+.bg-polenzitos {
+  background-image:  url('../images/home/polenzitos.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .fontNomes{
   font-family: Ubuntu;
   font-style: normal;
