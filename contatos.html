@@ -29,6 +29,11 @@
 
   <!-- Nosso CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Nosso JS  -->
+  <script src="assets/js/index.js"></script>
+
+
 </head>
 
 <body class="fundo">
@@ -84,32 +89,34 @@
   </div>
 
   <ul class="text-center">
-    <li class="contato-lista-item"><i class="fas fa-envelope fa-4x"></i> <br> <p>polen@unisuam.edu.br</p></li>
-    <li class="contato-lista-item"><i class="fas fa-phone fa-4x"></i> <br> <p>(21) 3030-1601</p></li>
-    <li class="contato-lista-item"><i class="fas fa-map-marker-alt fa-4x"></i> <br> <p>Av. Paris 121 - Bonsucesso</p></li>
+    <li class="contato-lista-item"><i class="fas fa-envelope fa-4x"></i> <br> <p class="mt-2">polen@unisuam.edu.br</p></li>
+    <li class="contato-lista-item"><i class="fas fa-phone fa-4x"></i> <br> <p class="mt-2">(21) 3030-1601</p></li>
+    <li class="contato-lista-item"><i class="fas fa-map-marker-alt fa-4x"></i> <br> <p class="mt-2">Av. Paris 121 - Bonsucesso</p></li>
   </ul>
 
   <div class="col-md-6 offset-md-3" id="contato-container">
-    <div class="row">
+    <div class="row isSubmit">
       <div class="col-lg-5">
         <div class="mt-4 mx-3">
-        <label  style="display: block;">Nome:</label>
-        <input type="text" name="" id="">
-        <label style="display: block;">Email:</label>
-        <input type="text" name="" id="">
-        <label style="display: block;">Telefone:</label>
-        <input type="text" name="" id="">
+        <form action="" name="formularioPessoal">
+          <label  style="display: block;">Nome:</label>
+          <input type="text" name="" id="">
+          <label style="display: block;">Email:</label>
+          <input type="text" name="" id="">
+          <label style="display: block;">Telefone:</label>
+          <input type="text" name="" id="">
+        </form>
         </div>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-7 isSubmit">
         <div class="m-4">
-          <label>Mensagem:</label>
-          <textarea class="col-12" name="" id="" cols="30" rows="10"></textarea>
+            <label>Mensagem:</label>
+            <textarea class="col-12" name="" id="" cols="30" rows="10"></textarea>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div >
+    <div class="row isSubmit">
+      <div>
         <label class="mx-3">Serviços</label>              
         <div class="row mt-1">
           <div class="mx-3d-flex flex-row">
@@ -122,12 +129,21 @@
             <button class="contato-servico-botoes m-2">Internacionalização</button>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
+  </form>
     <div class="text-center">
-    <button class="m-4" id="contato-enviar">Enviar</button>
+    <button class="m-4 isSubmit" id="contato-enviar" onclick="submitContato()">Enviar</button>
+    </div>
+
+    <div class="isSubmit invisible text-center vertical-center">
+      <i class="fas fa-envelope fa-5x" style="color: #EE7A3C; margin-top: 120px;"></i><br>
+      <p id="contato-msg-enviada">Mensagem enviada!</p>
+      <p id="contato-msg-breve">Entraremos em contato em breve</p>
     </div>
   </div>
+
+
 
   
   <!-- FOOTER -->
