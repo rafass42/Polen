@@ -29,6 +29,11 @@
 
   <!-- Nosso CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Nosso JS  -->
+  <script src="assets/js/index.js"></script>
+
+
 </head>
 
 <body class="fundo">
@@ -84,91 +89,109 @@
   </div>
 
   <ul class="text-center">
-    <li class="contato-lista-item"><i class="fas fa-envelope fa-4x"></i> <br> <p>polen@unisuam.edu.br</p></li>
-    <li class="contato-lista-item"><i class="fas fa-phone fa-4x"></i> <br> <p>(21) 3030-1601</p></li>
-    <li class="contato-lista-item"><i class="fas fa-map-marker-alt fa-4x"></i> <br> <p>Av. Paris 121 - Bonsucesso</p></li>
+    <li class="contato-lista-item"><i class="fas fa-envelope fa-4x"></i> <br> <p class="mt-2">polen@unisuam.edu.br</p></li>
+    <li class="contato-lista-item"><i class="fas fa-phone fa-4x"></i> <br> <p class="mt-2">(21) 3030-1601</p></li>
+    <li class="contato-lista-item"><i class="fas fa-map-marker-alt fa-4x"></i> <br> <p class="mt-2">Av. Paris 121 - Bonsucesso</p></li>
   </ul>
 
   <div class="col-md-6 offset-md-3" id="contato-container">
-    <div class="row">
-      <div class="col-lg-5">
+    <div class="row isSubmit">
+      <div class="col-lg-5" style="padding-left: 25px ;">
         <div class="mt-4 mx-3">
-        <label  style="display: block;">Nome:</label>
-        <input type="text" name="" id="">
-        <label style="display: block;">Email:</label>
-        <input type="text" name="" id="">
-        <label style="display: block;">Telefone:</label>
-        <input type="text" name="" id="">
+        <form action="" name="formularioPessoal">
+          <label  style="display: block;">Nome:</label>
+          <input type="text" name="nome" id="nome">
+          <label style="display: block;">Email:</label>
+          <input type="text" name="email" id="email">
+          <label style="display: block;">Telefone:</label>
+          <input type="text" name="telefone" id="telefone">
+        </form>
         </div>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-7 isSubmit" style="padding-right: 25px;">
         <div class="m-4">
-          <label>Mensagem:</label>
-          <textarea class="col-12" name="" id="" cols="30" rows="10"></textarea>
+            <label>Mensagem:</label>
+            <textarea class="col-12" name="" id="" cols="30" rows="10"></textarea>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div >
+    <div class="row isSubmit" style="padding-left:20px;">
+      <div>
         <label class="mx-3">Serviços</label>              
-        <div class="row mt-1">
+        <div class="row mt-1" style="margin-left: 5px;">
           <div class="mx-3d-flex flex-row">
-            <button class="contato-servico-botoes m-2">Coworking</button>
-            <button class="contato-servico-botoes m-2">Germinação e incubação</button>
-            <button class="contato-servico-botoes m-2">Mentorias</button>
-            <button class="contato-servico-botoes m-2">Bootcamp</button>
-            <button class="contato-servico-botoes m-2">Produção de podcasts</button>
-            <button class="contato-servico-botoes m-2">Favela Inova</button>
-            <button class="contato-servico-botoes m-2">Internacionalização</button>
+            <button class="contato-servico-botoes " value="Coworking" onclick="activeButton(event)">Coworking</button>
+            <button class="contato-servico-botoes " value="Germinação e incubação" onclick="activeButton(event)">Germinação e incubação</button>
+            <button class="contato-servico-botoes " value="Mentorias" onclick="activeButton(event)">Mentorias</button>
+            <button class="contato-servico-botoes " value="Bootcamp" onclick="activeButton(event)">Bootcamp</button>
+            <button class="contato-servico-botoes " value="Produção de podcasts" onclick="activeButton(event)">Produção de podcasts</button>
+            <button class="contato-servico-botoes " value="Favela Inova" onclick="activeButton(event)">Favela Inova</button>
+            <button class="contato-servico-botoes " value="Internacionalização" onclick="activeButton(event)">Internacionalização</button>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
+  </form>
     <div class="text-center">
-    <button class="m-4" id="contato-enviar">Enviar</button>
+    <button class="m-4 isSubmit" id="contato-enviar" onclick="submitContato()">Enviar</button>
+    </div>
+
+    <div class="isSubmit invisible text-center vertical-center">
+      <i class="fas fa-envelope fa-5x" style="color: #EE7A3C; margin-top: 120px;"></i><br>
+      <p id="contato-msg-enviada">Mensagem enviada!</p>
+      <p id="contato-msg-breve">Entraremos em contato em breve</p>
     </div>
   </div>
 
+
+
   
   <!-- FOOTER -->
-  <div class="mt-5 footer">
-    <div class="  container">
-      <div class="  row">
-        
-        <div class="logoP  col-sm-2 col-md-4">
-          <a class="navbar-brand" href="#">
-            <img src="assets/images/logo.png" alt="" class="d-inline-block align-text-top" width="160" height="120" />
-          </a>
+  <footer class="mt-5 footer py-5 text-light">
+    <div class="container">
+      <div class="d-flex flex-column flex-sm-row">
+        <div class="footer-logo align-self-center align-self-sm-start">
+          <figure>
+            <img src="assets/images/logo.png" class="img-fluid" alt="Logo do Pólen" />
+          </figure>
+
+          <ul class="footer-social">
+            <li><a href="https://www.instagram.com/polen.unisuam/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://open.spotify.com/show/6xXumIawt7MAYyW7o5GjSw?si=H34kntoLScmMzPtkTSZrzg&utm_source=copy-link"><i class="fab fa-spotify"></i></a></li>
+            <li><a href="https://br.linkedin.com/company/polen-unisuam"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
         </div>
 
-        <div class="infoP  col-sm-2 col-md-2">
-          <address class="pt-3 pt-sm-0">
-            
-            
-            <h5 class="text-light">Institucional</h5><br>
-            <span class="text-light">
-              <p class="mb-1">coworking</p>
-              <p class="mb-1" > ecossistema</p>
-              <p class="mb-1" >contato</p>
-              <p class="mb-1" >política de privacidade</p>
-            </span>
-          </address>
+        <div class="flex-grow-1">
+
         </div>
-        <div class="infoP col-sm-2 col-md-4">
-          <address class=" pt-3 pt-sm-0">
-            
-            <h5 class="text-light">Nosso endereço</h5>
-            <span class="text-light">Av. Paris, n° 121 Bonsucesso<br>
-            Rio de Janeiro, RJ, CEP 21041-020<br><br>
-            
-            
-            </a></span>
+
+        <div class="footer-links mt-3 mt-sm-0">
+          <h5>Institucional</h5>
+
+          <ul class="list-unstyled text-light">
+            <li>coworking</li>
+            <li>ecossistema</li>
+            <li>contato</li>
+            <li>política de privacidade</li>
+          </ul>
+        </div>
+
+        <div class="footer-address mt-3 mt-sm-0 ms-sm-5">
+          <h5>Nosso endereço</h5>
+          <address class="footer-address">
+            Av. Paris, n° 121 Bonsucesso<br>
+            Rio de Janeiro, RJ, CEP 21041-020
           </address>
+
+          <p class="mt-0">
+            <a href="https://g.page/polenunisuam?share">Encontre nos no Maps</a>
+          </p>
         </div>
       </div>
-  </div>     
-  </div>   
-</div>
+    </div>
+  </footer>
   <!-- FIM FOOTER -->
 
   <!-- SCRIPTS FOOTER -->

@@ -12,6 +12,10 @@ a {
   background: linear-gradient(180deg, #eb644e 15.52%, #ee7a3c 45%);
 }
 
+.invisible {
+  display: none;
+}
+
 .fontNav {
   font-style: normal;
   font-size: 17px;
@@ -219,6 +223,7 @@ a {
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 33px;
+  min-height: 455px;
 }
 
 #contato-container label {
@@ -250,11 +255,17 @@ a {
 
 .contato-servico-botoes {
   border: 0;
-  padding: 5px 20px;
-  margin: 0 10px;
+  margin: 10px 10px;
+  padding: 5px 15px;
+  background-color: red;
   background: #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
+}
+
+.contato-servico-btn-active {
+  background-color: #ee7a3c;
+  color: white;
 }
 
 #contato-enviar {
@@ -269,6 +280,26 @@ a {
   font-size: 16px;
 }
 
+#contato-msg-enviada {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #585959;
+}
+
+#contato-msg-breve {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #585959;
+}
+
 .qmSomos-image {
   background-position: center;
   background-size: cover;
@@ -281,16 +312,19 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
+  
 }
 
 .qmSomos-foto {
-  width: 128px;
-  height: 128px;
+  width: 170px;
+  height: 170px;
 }
 
 .qmSomos-foto img {
   height: 100%;
   object-fit: cover;
+  object-position: top center;
+  width: 100%;
 }
 
 .home-quemsomos {
@@ -432,4 +466,33 @@ a {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.fontNomes{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #585959;
+}
+.fontTeamInfo{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: justify;
+  color: #585959;
+
+}
+.fontTeamRole{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #585959;
 }
