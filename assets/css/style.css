@@ -131,13 +131,8 @@ a {
 .infoP {
   padding-left: 40px;
 }
+
 .logoP {
-}
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg, #ee7a3c 0%, #ea5e53 46.93%);
 }
 
 .fundo {
