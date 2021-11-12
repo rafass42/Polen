@@ -317,14 +317,45 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
+  
 }
 
 .qmSomos-foto {
-  width: 128px;
-  height: 128px;
+  width: 170px;
+  height: 170px;
 }
 
 .qmSomos-foto img {
   height: 100%;
   object-fit: cover;
+  object-position: top center;
+  width: 100%;
+}
+.fontNomes{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #585959;
+}
+.fontTeamInfo{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: justify;
+  color: #585959;
+
+}
+.fontTeamRole{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #585959;
 }
