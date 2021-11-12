@@ -400,6 +400,8 @@ a {
 
 .colecao-logos img {
   margin: 8px 16px 8px 16px;
+  max-width: 185px;
+  object-fit: contain;
 }
 
 .home-depoimentos {
