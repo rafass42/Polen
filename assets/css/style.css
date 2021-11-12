@@ -365,3 +365,35 @@ a {
   font-weight: 700;
   padding: 6px 30px 6px 30px;
 }
+
+.home-ecossistema {
+  background-color: #ffffff;
+}
+
+.home-ecossistema h2, h3 {
+  color: #EE7A3C;
+  font-weight: 700;
+}
+
+.home-ecossistema h2 {
+  font-size: 40px;
+}
+
+.home-ecossistema h3 {
+  font-style: 24px;
+}
+
+.home-ecossistema-box {
+  border: 5px solid rgba(0, 0, 0, 0.28);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 75px;
+}
+
+.colecao-logos {
+  text-align: center;
+}
+
+.colecao-logos img {
+  margin: 8px 16px 8px 16px;
+}
