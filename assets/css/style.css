@@ -397,3 +397,32 @@ a {
 .colecao-logos img {
   margin: 8px 16px 8px 16px;
 }
+
+.home-depoimentos {
+  background: linear-gradient(270deg, #EE7A3C -0.69%, #EA5E53 50%);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home-depoimentos p {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.home-depoimentos .simbolo-aspas {
+  font-weight: bold;
+  font-size: 218px;
+  color:white;
+  margin-left: -25px;
+}
+
+.home-depoimentos .texto-depoimento {
+  margin-top: -168px;
+}
+
+.bg-polenzitos {
+  background-image:  url('../images/home/polenzitos.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
