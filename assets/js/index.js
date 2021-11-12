@@ -1,3 +1,9 @@
+//BOTÕES SERVIÇOS
+
+function activeButton({target}){
+    target.classList.toggle("contato-servico-btn-active");
+}
+
 //SUBMIT CONTATOS
 function submitContato(){
     const nome = document.getElementById("nome").value;
@@ -11,8 +17,6 @@ function submitContato(){
         telefone,
         mensagem
     }
-
-    console.log(enviado);
 
     const dados = document.querySelectorAll('.isSubmit');
     dados.forEach(dado=>{
