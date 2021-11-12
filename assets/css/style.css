@@ -292,3 +292,36 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
+.home-quemsomos {
+  background-color: #ffffff;
+}
+
+.home-quemsomos h2 {
+  color: #EE7A3C;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.font-default {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text-color-default {
+  color: #585959;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.btn-polen {
+  color: #ffffff;
+  background-color: #EE7A3C;
+  border-color: #F7AD31;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 6px 30px 6px 30px;
+}
