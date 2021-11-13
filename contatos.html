@@ -36,7 +36,7 @@
 
 </head>
 
-<body class="fundo">
+<body class="fundo" onload="enviado()">
   <!-- INÍCIO NAVBAR -->
   <nav class="fontNav navbar  navbar-expand-lg navbar-dark">
     <div class="container">
@@ -95,46 +95,49 @@
   </ul>
 
   <div class="col-md-6 offset-md-3" id="contato-container">
-    <div class="row isSubmit">
-      <div class="col-lg-5" style="padding-left: 25px ;">
-        <div class="mt-4 mx-3">
-        <form action="" name="formularioPessoal">
-          <label  style="display: block;">Nome:</label>
-          <input type="text" name="nome" id="nome">
-          <label style="display: block;">Email:</label>
-          <input type="text" name="email" id="email">
-          <label style="display: block;">Telefone:</label>
-          <input type="text" name="telefone" id="telefone">
-        </form>
-        </div>
-      </div>
-      <div class="col-lg-7 isSubmit" style="padding-right: 25px;">
-        <div class="m-4">
-            <label>Mensagem:</label>
-            <textarea class="col-12" name="" id="" cols="30" rows="10"></textarea>
-        </div>
-      </div>
-    </div>
-    <div class="row isSubmit" style="padding-left:20px;">
-      <div>
-        <label class="mx-3">Serviços</label>              
-        <div class="row mt-1" style="margin-left: 5px;">
-          <div class="mx-3d-flex flex-row">
-            <button class="contato-servico-botoes " value="Coworking" onclick="activeButton(event)">Coworking</button>
-            <button class="contato-servico-botoes " value="Germinação e incubação" onclick="activeButton(event)">Germinação e incubação</button>
-            <button class="contato-servico-botoes " value="Mentorias" onclick="activeButton(event)">Mentorias</button>
-            <button class="contato-servico-botoes " value="Bootcamp" onclick="activeButton(event)">Bootcamp</button>
-            <button class="contato-servico-botoes " value="Produção de podcasts" onclick="activeButton(event)">Produção de podcasts</button>
-            <button class="contato-servico-botoes " value="Favela Inova" onclick="activeButton(event)">Favela Inova</button>
-            <button class="contato-servico-botoes " value="Internacionalização" onclick="activeButton(event)">Internacionalização</button>
+    <form action="/contatos.html" onsubmit="submitContato()" class="isSubmit" method="get" name="formularioPessoal">
+      <div class="row ">
+        <div class="col-lg-5" style="padding-left: 25px ;">
+          <div class="mt-4 mx-3">
+            <input type="hidden" name="enviado" id="isEnv" value="false">
+            <label  style="display: block;">Nome:</label>
+            <input type="text" name="nome" id="nome" title="Insira seu nome" required>
+            <label style="display: block;">Email:</label>
+            <input type="email" name="email" id="email" title="Insira um Email válido" required>
+            <label style="display: block;">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" pattern="^\s*(\d{2}|\d{0})[-. ]?(\d{5}|\d{4})[-. ]?(\d{4})[-. ]?\s*$" title="Insira um número válido" required>
           </div>
         </div>
-      </div>  
-    </div>
+        <div class="col-lg-7 " style="padding-right: 25px;">
+          <div class="m-4">
+              <label>Mensagem:</label>
+              <textarea class="col-12" name="" id="" cols="30" rows="10" required></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row " style="padding-left:20px;">
+        <div>
+          <label class="mx-3">Serviços</label>              
+          <div class="row mt-1" style="margin-left: 5px;">
+            <div class="mx-3d-flex flex-row">
+              <button class="contato-servico-botoes " value="Coworking" onclick="activeButton(event)">Coworking</button>
+              <button class="contato-servico-botoes " value="Germinação e incubação" onclick="activeButton(event)">Germinação e incubação</button>
+              <button class="contato-servico-botoes " value="Mentorias" onclick="activeButton(event)">Mentorias</button>
+              <button class="contato-servico-botoes " value="Bootcamp" onclick="activeButton(event)">Bootcamp</button>
+              <button class="contato-servico-botoes " value="Produção de podcasts" onclick="activeButton(event)">Produção de podcasts</button>
+              <button class="contato-servico-botoes " value="Favela Inova" onclick="activeButton(event)">Favela Inova</button>
+              <button class="contato-servico-botoes " value="Internacionalização" onclick="activeButton(event)">Internacionalização</button>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="text-center">
+      <button type="submit" class="m-4 " id="contato-enviar">Enviar</button>
+      </div>
   </form>
-    <div class="text-center">
-    <button class="m-4 isSubmit" id="contato-enviar" onclick="submitContato()">Enviar</button>
-    </div>
+
+  
+    
 
     <div class="isSubmit invisible text-center vertical-center">
       <i class="fas fa-envelope fa-5x" style="color: #EE7A3C; margin-top: 120px;"></i><br>
