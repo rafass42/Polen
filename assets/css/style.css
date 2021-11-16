@@ -60,6 +60,7 @@ a {
   font-family: 'Ubuntu', sans-serif;
   font-size: 24px;
   font-weight: 400;
+  background: linear-gradient(180deg, #EE7A3C 28.18%, #EA5E53 60.85%, #EA5E53 95.89%);
 }
 
 .home-destaque h1 {
@@ -478,3 +479,9 @@ a {
   text-align: center;
   color: #585959;
 }
+
+/* Fundos Básicos */
+.fundo-laranja {
+  background-color: #EE7A3C;
+}
+/* Fim Fundos Básicos */
