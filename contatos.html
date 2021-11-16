@@ -95,23 +95,25 @@
   </ul>
 
   <div class="col-md-6 offset-md-3" id="contato-container">
-    <form action="/contatos.html" onsubmit="submitContato()" class="isSubmit" method="get" name="formularioPessoal">
+    <form action="https://api.staticforms.xyz/submit" onsubmit="submitContato()" method="post" class="isSubmit">
       <div class="row ">
         <div class="col-lg-5" style="padding-left: 25px ;">
           <div class="mt-4 mx-3">
-            <input type="hidden" name="enviado" id="isEnv" value="false">
+            <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+            <input type="hidden" name="accessKey" value="7b154823-4f95-4a75-8b28-892da73005d4">
             <label  style="display: block;">Nome:</label>
-            <input type="text" name="nome" id="nome" title="Insira seu nome" required>
+            <input type="text" name="name" id="nome" title="Insira seu nome" required>
+            <input type="text" name="subject" id="assunto" style="display: none;">
             <label style="display: block;">Email:</label>
             <input type="email" name="email" id="email" title="Insira um Email válido" required>
             <label style="display: block;">Telefone:</label>
-            <input type="text" name="telefone" id="telefone" pattern="^\s*(\d{2}|\d{0})[-. ]?(\d{5}|\d{4})[-. ]?(\d{4})[-. ]?\s*$" title="Insira um número válido" required>
+            <input type="text" name="phone" id="telefone" pattern="^\s*(\d{2}|\d{0})[-. ]?(\d{5}|\d{4})[-. ]?(\d{4})[-. ]?\s*$" title="Insira um número válido" required>
           </div>
         </div>
         <div class="col-lg-7 " style="padding-right: 25px;">
           <div class="m-4">
               <label>Mensagem:</label>
-              <textarea class="col-12" name="" id="" cols="30" rows="10" required></textarea>
+              <textarea class="col-12" name="message" id="" cols="30" rows="10" required></textarea>
           </div>
         </div>
       </div>
@@ -132,6 +134,7 @@
         </div>  
       </div>
       <div class="text-center">
+      <input type="hidden" name="redirectTo" value="https://rafass42.github.io/Polen/contatos.html?XlmdskI">
       <button type="submit" class="m-4 " id="contato-enviar">Enviar</button>
       </div>
   </form>
