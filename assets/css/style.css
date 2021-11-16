@@ -81,8 +81,10 @@ a {
   font-weight: 500;
 }
 
-.home-destaque-borda {
-  border-left: 5px solid #ffffff;
+@media only screen and (min-width: 576px) {
+  .home-destaque-borda {
+   border-left: 5px solid #ffffff;
+  }
 }
 /* Fim do Home Destaque */
 
