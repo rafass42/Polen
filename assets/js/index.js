@@ -1,6 +1,6 @@
 //Enviado Page
 function enviado() {
-    if(window.location.href.includes("XlmdskI")){
+    if(window.location.href.contains("XlmdskI")){
         const dados = document.querySelectorAll('.isSubmit');
         dados.forEach(dado=>{
             dado.classList.toggle("invisible");
