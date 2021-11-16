@@ -60,6 +60,7 @@ a {
   font-family: 'Ubuntu', sans-serif;
   font-size: 24px;
   font-weight: 400;
+  background: linear-gradient(180deg, #EE7A3C 28.18%, #EA5E53 60.85%, #EA5E53 95.89%);
 }
 
 .home-destaque h1 {
@@ -81,8 +82,10 @@ a {
   font-weight: 500;
 }
 
-.home-destaque-borda {
-  border-left: 5px solid #ffffff;
+@media only screen and (min-width: 576px) {
+  .home-destaque-borda {
+   border-left: 5px solid #ffffff;
+  }
 }
 /* Fim do Home Destaque */
 
@@ -420,11 +423,31 @@ a {
   margin-top: -168px;
 }
 
-.bg-polenzitos {
-  background-image:  url('../images/home/polenzitos.png');
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+@media only screen and (min-width: 768px) {
+  .bg-polenzitos {
+    background-image:  url('../images/home/polenzitos.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 680px auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .bg-polenzitos {
+    background-size: 520px auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bg-polenzitos {
+    background-size: 580px auto;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .bg-polenzitos {
+    background-size: contain !important;
+  }
 }
 /* Fim Home Depoimentos */ 
 
@@ -456,3 +479,9 @@ a {
   text-align: center;
   color: #585959;
 }
+
+/* Fundos Básicos */
+.fundo-laranja {
+  background-color: #EE7A3C;
+}
+/* Fim Fundos Básicos */
