@@ -485,3 +485,16 @@ a {
   background-color: #EE7A3C;
 }
 /* Fim Fundos Básicos */
+
+/* Estilo Destaque Ecossistema */
+.ecossistema-destaque {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ecossistema-destaque h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+/* Fim do Home Destaque */
