@@ -498,3 +498,27 @@ a {
   font-weight: 700;
 }
 /* Fim do Home Destaque */
+
+.quemsomos-card {
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  border-radius: 231.5px;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.quemsomos-card .row {
+  min-height: 384px;
+  padding-bottom: 35px;
+}
+
+.quemsomos-card h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.quemsomos-card p {
+  font-size: 24px;
+  font-weight: 400;
+}
