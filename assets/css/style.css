@@ -420,11 +420,31 @@ a {
   margin-top: -168px;
 }
 
-.bg-polenzitos {
-  background-image:  url('../images/home/polenzitos.png');
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+@media only screen and (min-width: 768px) {
+  .bg-polenzitos {
+    background-image:  url('../images/home/polenzitos.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 680px auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .bg-polenzitos {
+    background-size: 520px auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bg-polenzitos {
+    background-size: 580px auto;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .bg-polenzitos {
+    background-size: contain !important;
+  }
 }
 /* Fim Home Depoimentos */ 
 
