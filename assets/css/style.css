@@ -34,6 +34,7 @@ a {
   background-size: cover;
   border-radius: 174.619px;
   height: 255px;
+  z-index: 0;
 }
 
 .produtos-text {
@@ -53,6 +54,20 @@ a {
   margin-top: 95px;
   text-shadow: 2px 2px 4px #000;
 }
+
+.produtos-textos{
+    margin-top: -60px;
+    display: none;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    border-radius: 15px;
+  
+}
+
+.active{
+    transition: all .5s ease-in-out;
+}
+
 
 /* Estilo Destaque Home*/
 .home-destaque {
