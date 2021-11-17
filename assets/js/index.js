@@ -2,7 +2,7 @@
 function enviado() {
     console.log("foi");
     let link = location.search;
-    if(link=="XlmdskI=Envl0xk"){
+    if(link=="?XlmdskI=Envl0xk"){
         const dados = document.querySelectorAll('.isSubmit');
         dados.forEach(dado=>{
             dado.classList.toggle("invisible");
