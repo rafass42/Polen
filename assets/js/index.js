@@ -1,8 +1,8 @@
 //Enviado Page
 function enviado() {
-    console.log("foi");
     let link = location.search;
-    if(link=="?XlmdskI=Envl0xk"){
+    let flag = location.search.includes("XlmdskI=Envl0xk");
+    if(flag){
         const dados = document.querySelectorAll('.isSubmit');
         dados.forEach(dado=>{
             dado.classList.toggle("invisible");
