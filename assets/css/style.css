@@ -510,7 +510,13 @@ a {
 
 .quemsomos-card .row {
   min-height: 384px;
-  padding-bottom: 35px;
+  padding: 60px;
+}
+
+@media only screen and (min-width: 992px) {
+  .quemsomos-card .row {
+    padding: 0 0 35px 0 !important;
+  }
 }
 
 .quemsomos-card h1 {
