@@ -41,6 +41,8 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: white;
+  width: 85%;
+  word-wrap: break-word;
 }
 
 .produtos-text p {
@@ -65,7 +67,10 @@ a {
     background: rgba(0, 0, 0, 0.55);
     color: #fff;
     border-radius: 15px;
-  
+}
+
+.produtos-textos p {
+  padding-top: 16px;
 }
 
 .produtos-wrapper {
