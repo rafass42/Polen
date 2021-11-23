@@ -38,13 +38,16 @@ a {
 }
 
 .produtos-text {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
   color: white;
-  font-size: 30px;
-  text-align: left;
-  margin-left: 25px;
-  margin-top: 150px;
 }
+
+.produtos-text p {
+  margin-bottom: 24px;
+  margin-left: 60px;
+}
+
 .produtos-text2 {
   font-family: Roboto;
   color: white;
