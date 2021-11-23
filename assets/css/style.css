@@ -580,7 +580,7 @@ a {
   font-size: 24px;
   font-weight: 400;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela1 {
     background-image:  url('../images/favelaInova/POLENZITO-bottom-right.png');
     background-position: right bottom;
@@ -588,7 +588,7 @@ a {
     background-size: 250px auto;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela2 {
     background-image:  url('../images/favelaInova/POLENZITO-bottom-left.png');
     background-position: left bottom;
@@ -596,10 +596,19 @@ a {
     background-size: 250px auto;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela3 {
-    background-image:  url('../images/favelaInova/POLENZITO-top.png');
+    background-image:  url('../images/favelaInova/POLENZITO-top-left-top.png');
     background-repeat: no-repeat;
-    background-size: 1650px auto;
+    background-position: left bottom;
+    background-size: 500px auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .bg-polenzitos-favela4 {
+    background-image:  url('../images/favelaInova/POLENZITO-top-right-top.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 500px auto;
   }
 }
