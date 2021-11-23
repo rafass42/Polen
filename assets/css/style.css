@@ -38,7 +38,7 @@ a {
 }
 
 .produtos-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   color: white;
   width: 85%;
@@ -61,12 +61,12 @@ a {
   text-shadow: 2px 2px 4px #000;
 }
 
-.produtos-textos{
-    margin-top: -60px;
-    display: none;
-    background: rgba(0, 0, 0, 0.55);
-    color: #fff;
-    border-radius: 15px;
+.produtos-textos {
+  margin-top: -60px;
+  display: none;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border-radius: 15px;
 }
 
 .produtos-textos p {
@@ -75,18 +75,18 @@ a {
 
 .produtos-wrapper {
   overflow: hidden;
-  position:relative;
+  position: relative;
   height: 255px;
   border-radius: 174.619px;
 }
 
 .produtos-background {
-  position:absolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  z-index:-1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
   background-size: cover;
   background-position: center;
   transition: all 0.5s ease;
@@ -100,17 +100,21 @@ a {
   transform: scale(1.2);
 }
 
-.active{
-    transition: all .5s ease-in-out;
+.active {
+  transition: all 0.5s ease-in-out;
 }
-
 
 /* Estilo Destaque Home*/
 .home-destaque {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  background: linear-gradient(180deg, #EE7A3C 28.18%, #EA5E53 60.85%, #EA5E53 95.89%);
+  background: linear-gradient(
+    180deg,
+    #ee7a3c 28.18%,
+    #ea5e53 60.85%,
+    #ea5e53 95.89%
+  );
 }
 
 .home-destaque h1 {
@@ -134,7 +138,7 @@ a {
 
 @media only screen and (min-width: 576px) {
   .home-destaque-borda {
-   border-left: 5px solid #ffffff;
+    border-left: 5px solid #ffffff;
   }
 }
 /* Fim do Home Destaque */
@@ -244,7 +248,7 @@ a {
 }
 
 #contato-container input {
-  width: 256.71px;
+  width: 90%;
   height: 32.45px;
   margin-bottom: 10px;
   background: #c4c4c4;
@@ -319,7 +323,6 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
-  
 }
 
 .qmSomos-foto {
@@ -340,13 +343,13 @@ a {
 }
 
 .home-quemsomos h2 {
-  color: #EE7A3C;
+  color: #ee7a3c;
   font-size: 48px;
   font-weight: 700;
 }
 
 .font-default {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .text-color-default {
@@ -359,8 +362,8 @@ a {
 
 .btn-polen {
   color: #ffffff;
-  background-color: #EE7A3C;
-  border-color: #F7AD31;
+  background-color: #ee7a3c;
+  border-color: #f7ad31;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
   font-style: italic;
@@ -371,7 +374,7 @@ a {
 
 /* Início Home Produtos */
 .home-produtos {
-  background-color: #EA5E53;
+  background-color: #ea5e53;
 }
 
 .home-produtos h2 {
@@ -400,7 +403,7 @@ a {
 }
 
 .btn-polen-branco {
-  color: #EE7A3C;
+  color: #ee7a3c;
   background-color: #ffffff;
   border-color: #eee;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -416,8 +419,9 @@ a {
   background-color: #ffffff;
 }
 
-.home-ecossistema h2, h3 {
-  color: #EE7A3C;
+.home-ecossistema h2,
+h3 {
+  color: #ee7a3c;
   font-weight: 700;
 }
 
@@ -453,8 +457,8 @@ a {
 
 /* Início Home Depoimentos */
 .home-depoimentos {
-  background: linear-gradient(270deg, #EE7A3C -0.69%, #EA5E53 50%);
-  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(270deg, #ee7a3c -0.69%, #ea5e53 50%);
+  font-family: "Ubuntu", sans-serif;
   padding-top: 700px !important;
 }
 
@@ -467,7 +471,7 @@ a {
 .home-depoimentos .simbolo-aspas {
   font-weight: bold;
   font-size: 218px;
-  color:white;
+  color: white;
   margin-left: -25px;
 }
 
@@ -477,7 +481,7 @@ a {
 
 @media only screen and (min-width: 768px) {
   .bg-polenzitos {
-    background-image:  url('../images/home/polenzitos.png');
+    background-image: url("../images/home/polenzitos.png");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 680px auto;
@@ -501,9 +505,9 @@ a {
     background-size: contain !important;
   }
 }
-/* Fim Home Depoimentos */ 
+/* Fim Home Depoimentos */
 
-.fontNomes{
+.fontNomes {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
@@ -512,7 +516,7 @@ a {
   text-align: center;
   color: #585959;
 }
-.fontTeamInfo{
+.fontTeamInfo {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 500;
@@ -520,9 +524,8 @@ a {
   line-height: 33px;
   text-align: justify;
   color: #585959;
-
 }
-.fontTeamRole{
+.fontTeamRole {
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
@@ -534,13 +537,13 @@ a {
 
 /* Fundos Básicos */
 .fundo-laranja {
-  background-color: #EE7A3C;
+  background-color: #ee7a3c;
 }
 /* Fim Fundos Básicos */
 
 /* Estilo Destaque Ecossistema */
 .ecossistema-destaque {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
@@ -556,7 +559,7 @@ a {
   background-size: cover;
   color: #fff;
   border-radius: 231.5px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-shadow: 2px 2px 4px #000;
 }
 
@@ -582,7 +585,7 @@ a {
 }
 @media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela1 {
-    background-image:  url('../images/favelaInova/POLENZITO-bottom-right.png');
+    background-image: url("../images/favelaInova/POLENZITO-bottom-right.png");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 250px auto;
@@ -590,7 +593,7 @@ a {
 }
 @media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela2 {
-    background-image:  url('../images/favelaInova/POLENZITO-bottom-left.png');
+    background-image: url("../images/favelaInova/POLENZITO-bottom-left.png");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: 250px auto;
@@ -598,7 +601,7 @@ a {
 }
 @media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela3 {
-    background-image:  url('../images/favelaInova/POLENZITO-top-left-top.png');
+    background-image: url("../images/favelaInova/POLENZITO-top-left-top.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 500px auto;
@@ -606,7 +609,7 @@ a {
 }
 @media only screen and (min-width: 1280px) {
   .bg-polenzitos-favela4 {
-    background-image:  url('../images/favelaInova/POLENZITO-top-right-top.png');
+    background-image: url("../images/favelaInova/POLENZITO-top-right-top.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 500px auto;
