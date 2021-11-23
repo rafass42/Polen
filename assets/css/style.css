@@ -61,16 +61,20 @@ a {
   text-shadow: 2px 2px 4px #000;
 }
 
-.produtos-textos {
-  margin-top: -60px;
+.produtos-textos{
+  margin-top: -255px;
   display: none;
   background: rgba(0, 0, 0, 0.55);
   color: #fff;
-  border-radius: 15px;
+  border-top-right-radius: 126.5px;    
+  border-top-left-radius: 126.5px;
+  border-bottom-left-radius: 60px;  
+  border-bottom-right-radius: 60px;
 }
 
 .produtos-textos p {
-  padding-top: 16px;
+padding-top: 220px;
+padding-bottom: 10px;
 }
 
 .produtos-wrapper {
