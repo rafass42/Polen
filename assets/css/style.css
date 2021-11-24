@@ -28,6 +28,18 @@ a {
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
 }
+
+.navbar-brand img {
+  width: 175px;
+  height: auto;
+}
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
 .produtos-image {
   background-image: linear-gradient(rgba(0, 0, 0, 55), rgba(0, 0, 0, 0.041));
   background-position: center;
