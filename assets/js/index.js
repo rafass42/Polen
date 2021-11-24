@@ -1,3 +1,23 @@
+//Animação números home
+function animateValue(obj, start, end, duration) {
+    let startTimestamp = null;
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      obj.innerHTML = Math.floor(progress * (end - start) + start);
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+    window.requestAnimationFrame(step);
+  }
+  
+  const numerosAnimados = document.querySelectorAll(".numerosAnimados");
+  numerosAnimados.forEach(numero=>{
+    animateValue(numero, 0, numero.innerText, 1700);
+  })
+  
+
 //Accordion Produtos
 var acc = document.getElementsByClassName("accordion");
 var i;
