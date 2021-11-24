@@ -29,16 +29,26 @@ for (i = 0; i < acc.length; i++) {
         if(acc[x].classList.contains("active") && acc[x]!=e.target){
             acc[x].classList.toggle("active");   
             let proximoRetirado = acc[x].nextElementSibling;
-            proximoRetirado.style.display="none";
+            setTimeout(() => {
+                proximoRetirado.style.display="none";    
+            }, 500);
+            proximoRetirado.classList.remove("fadein")
+            proximoRetirado.classList.add("fadeout")
         }    
     }
 
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
-      panel.style.display = "none";
+      setTimeout(() => {
+        panel.style.display = "none";    
+      }, 500);
+      panel.classList.remove("fadein");
+      panel.classList.add("fadeout");
     } else {
-      panel.style.display = "block";
+        panel.style.display = "block";
+        panel.classList.add("fadein");
+        panel.classList.remove("fadeout");
     }
   });
 }
