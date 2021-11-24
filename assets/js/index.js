@@ -3,7 +3,16 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function(e) {
+    
+    for(x = 0; x < acc.length; x++){
+        if(acc[x].classList.contains("active") && acc[x]!=e.target){
+            acc[x].classList.toggle("active");   
+            let proximoRetirado = acc[x].nextElementSibling;
+            proximoRetirado.style.display="none";
+        }    
+    }
+
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
