@@ -667,3 +667,25 @@ h3 {
   font-size: 40px;
   font-weight: 700;
 }
+
+.favelainova-programa h2 {
+  color: #ee7a3c;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.favelainova-programa p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.favelainova-convite {
+  margin-top: 126px;
+}
+
+.favelainova-convite p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
