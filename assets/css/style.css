@@ -535,8 +535,15 @@ h3 {
   text-align: center;
   color: #585959;
 }
+
+.fontTeamHeader {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+
 .fontTeamInfo {
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
