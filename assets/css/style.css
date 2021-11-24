@@ -21,13 +21,28 @@ a {
   font-size: 17px;
   line-height: 20px;
 }
-.navbar-nav > li {
+/*.navbar-nav > li {
   padding-left: 35px;
   padding-right: 25px;
-}
+}*/
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
 }
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav-link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #fff;
+}
+
 .produtos-image {
   background-image: linear-gradient(rgba(0, 0, 0, 55), rgba(0, 0, 0, 0.041));
   background-position: center;
@@ -548,8 +563,15 @@ h3 {
   text-align: center;
   color: #585959;
 }
+
+.fontTeamHeader {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+
 .fontTeamInfo {
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -585,6 +607,15 @@ h3 {
   font-weight: 700;
 }
 /* Fim do Home Destaque */
+
+.quemsomos-fundo {
+  background: linear-gradient(
+    180deg,
+    #ee7a3c 28.18%,
+    #ea5e53 60.85%,
+    #ea5e53 95.89%
+  );
+}
 
 .quemsomos-card {
   background-position: center;
@@ -646,4 +677,43 @@ h3 {
     background-position: right bottom;
     background-size: 500px auto;
   }
+}
+
+.favelainova-destaque {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  background: linear-gradient(
+    180deg,
+    #ee7a3c 28.18%,
+    #ea5e53 60.85%,
+    #ea5e53 95.89%
+  );
+}
+
+.favelainova-destaque h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.favelainova-programa h2 {
+  color: #ee7a3c;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.favelainova-programa p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.favelainova-convite {
+  margin-top: 126px;
+}
+
+.favelainova-convite p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
 }
