@@ -55,6 +55,7 @@ a {
 .produtos-text {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
+  font-weight: 900;
   color: white;
   width: 85%;
   word-wrap: break-word;
