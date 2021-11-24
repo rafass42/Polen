@@ -573,6 +573,15 @@ h3 {
 }
 /* Fim do Home Destaque */
 
+.quemsomos-fundo {
+  background: linear-gradient(
+    180deg,
+    #ee7a3c 28.18%,
+    #ea5e53 60.85%,
+    #ea5e53 95.89%
+  );
+}
+
 .quemsomos-card {
   background-position: center;
   background-size: cover;

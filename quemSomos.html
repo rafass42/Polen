@@ -32,47 +32,53 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
-<body class="fundo">
+<body>
   <!-- INÍCIO NAVBAR -->
-  <nav class="mb-5 fontNav navbar navbar-expand-xl navbar-dark">
+  <nav class="navbar navbar-expand-xl navbar-dark fundo-laranja">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/logo_horizontal.png" alt="" class=" d-inline-block align-text-top" width="234"
-          height="64" />
+        <img src="assets/images/logo_horizontal.png" alt="Logo do Pólen" width="175px" height="49px" />
       </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              INICIO
+        <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1">
+          <li class="nav-item flex-grow-1">
+            <a class="nav-link active" href="index.html" aria-current="page">
+              INÍCIO
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quemSomos.html" aria-current="page">QUEM SOMOS</a>
+          <li class="nav-item flex-grow-1">
+            <a class="nav-link" href="quemSomos.html">
+              QUEM SOMOS
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="produtos.html">PRODUTOS</a>
+          <li class="nav-item flex-grow-1">
+            <a class="nav-link" href="produtos.html">
+              PRODUTOS
+            </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item flex-grow-1">
             <a class="nav-link" href="favelaInova.html">
               FAVELA INOVA
             </a>
+          </li>
+
+          <li class="nav-item flex-grow-1">
+            <a class="nav-link" href="ecossistema.html">
+              ECOSSISTEMA
             </a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="ecossistema.html">ECOSSISTEMA</a>
+          <li class="nav-item flex-grow-1">
+            <a class="nav-link" href="contatos.html">
+              CONTATO
+            </a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contatos.html">CONTATO</a>
-          </li>
-
         </ul>
       </div>
     </div>
@@ -80,14 +86,15 @@
   <!-- FIM NAVBAR -->
 
   <!-- INÍCIO QUEM SOMOS -->
+  <div class="quemsomos-fundo py-3">
   <div class="container quemsomos-card" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
   url('assets/images/quemSomos/quemSomos.jpg')">
     <div class="row align-items-end justify-content-center">
-      <div class="col-md-5">
+      <div class="col-lg-5 text-center text-lg-start">
         <h1>QUEM<br>SOMOS</h1>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <p class="text-justify">
           O Pólen - Polo de Inovação da UNISUAM é um hub voltado para
           empreendedores e startups. Aqui contamos com uma equipe de profissionais multidisciplinares
@@ -97,14 +104,14 @@
     </div>
   </div>
 
-  <div class="mt-5 container quemsomos-card" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+  <div class="mt-5 mb-4 container quemsomos-card" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
   url('assets/images/quemSomos/infraestrutura.jpg')">
     <div class="row align-items-end justify-content-center">
-      <div class="col-md-5">
-        <h1>QUEM<br>SOMOS</h1>
+      <div class="col-lg-5 text-center text-lg-start">
+        <h1>INFRA<br>ESTRUTURA</h1>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <p class="text-justify">
           O Pólen - Polo de Inovação da UNISUAM é um hub voltado para
           empreendedores e startups. Aqui contamos com uma equipe de profissionais multidisciplinares
@@ -113,6 +120,7 @@
       </div>
     </div>
   </div>
+</div>
   
   <!-- FIM QUEM SOMOS -->
 
