@@ -1,644 +1,948 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Início &lsaquo; Pólen</title>
+    <link rel="icon" href="assets/images/favicon.png" />
 
-  <title>Início &lsaquo; Pólen</title>
-  <link rel="icon" href="assets/images/favicon.png" />
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fontes -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap"
-    rel="stylesheet">
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+      integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
-    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
-    crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <!-- Animate CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!-- Animate CSS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-  <!-- Nosso CSS -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-  <!-- INÍCIO NAVBAR -->
-  <nav class="navbar navbar-expand-xl navbar-dark fundo-laranja">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/images/logo_horizontal.png" alt="Logo do Pólen" width="175px" height="49px" />
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1">
-          <li class="nav-item flex-grow-1">
-            <a class="nav-link active" href="index.html" aria-current="page">
-              INÍCIO
-            </a>
-          </li>
-          <li class="nav-item flex-grow-1">
-            <a class="nav-link" href="quemSomos.html">
-              QUEM SOMOS
-            </a>
-          </li>
-          <li class="nav-item flex-grow-1">
-            <a class="nav-link" href="produtos.html">
-              PRODUTOS
-            </a>
-          </li>
-          <li class="nav-item flex-grow-1">
-            <a class="nav-link" href="favelaInova.html">
-              FAVELA INOVA
-            </a>
-          </li>
-
-          <li class="nav-item flex-grow-1">
-            <a class="nav-link" href="ecossistema.html">
-              ECOSSISTEMA
-            </a>
-          </li>
-
-          <li class="nav-item flex-grow-1">
-            <a class="nav-link" href="contatos.html">
-              CONTATO
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- FIM NAVBAR -->
-
-  <!-- INÍCIO DO CONTEÚDO -->
-  <main>
-    <!-- INÍCIO DESTAQUE PRINCIPAL -->
-    <section class="text-light home-destaque py-3">
+  <body>
+    <!-- INÍCIO NAVBAR -->
+    <nav class="navbar navbar-expand-xl navbar-dark fundo-laranja">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="assets/images/home/pessoas.png" class="img-fluid" style="border-radius: 60%;"
-              alt="Pessoas trabalhando num escritório confortável" />
-          </div>
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo_horizontal.png"
+            alt="Logo do Pólen"
+            width="175px"
+            height="49px"
+          />
+        </a>
 
-          <div class="col-sm-8 ps-5 align-self-center">
-            <h1>NÓS SOMOS O PÓLEN DE INOVAÇÃO</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <p>
-              Aqui você encontra “O” local perfeito para transformar seus projetos. Com a ajuda do nosso time,
-              empreender
-              fica mais simples e fácil. Você pode chegar no Pólen com uma ideia, e nós vamos te ajudar a sair com um
-              negócio real, rentável e escalável.
-            </p>
-          </div>
-        </div>
-
-        <div class="row home-destaque-numeros my-5">
-          <div class="col-sm-3">
-            <h2>+<span class="numerosAnimados">1500</span></h2>
-            <p>HORAS DE<br>MENTORIAS</p>
-          </div>
-
-          <div class="col-sm-3 home-destaque-borda">
-            <h2>+<span class="numerosAnimados">200</span></h2>
-            <p>STARTUPS NO<br>ECOSSISTEMA</p>
-          </div>
-
-          <div class="col-sm-3 home-destaque-borda">
-            <h2>+<span class="numerosAnimados">450</span></h2>
-            <p>EMPRESAS<br>ABERTAS</p>
-          </div>
-
-          <div class="col-sm-3 home-destaque-borda">
-            <h2>+<span class="numerosAnimados">10</span></h2>
-            <p>PAÍSES<br>CONECTADOS</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- FIM DESTAQUE PRINCIPAL -->
-
-    <!-- INÍCIO QUEM SOMOS -->
-    <section class="home-quemsomos font-default text-color-default py-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-sm-4 align-self-center">
-            <h2>QUEM SOMOS?</h2>
-
-            <p class="text-justify">
-              O Pólen - Polo de Inovação da UNISUAM é um hub voltado para empreendedores e startups. Aqui contamos com
-              uma equipe de profissionais multidisciplinares nacionais e internacionais com o objetivo de transformar
-              ideias em negócios rentáveis.
-            </p>
-
-            <p class="text-center">
-              <a href="quemSomos.html" class="btn btn-polen">
-                VEM CONHECER A GENTE
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1">
+            <li class="nav-item flex-grow-1">
+              <a class="nav-link active" href="index.html" aria-current="page">
+                INÍCIO
               </a>
-            </p>
-          </div>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <a class="nav-link" href="quemSomos.html"> QUEM SOMOS </a>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <a class="nav-link" href="produtos.html"> PRODUTOS </a>
+            </li>
+            <li class="nav-item flex-grow-1">
+              <a class="nav-link" href="favelaInova.html"> FAVELA INOVA </a>
+            </li>
 
-          <div class="col-sm-4">
-            <img src="assets/images/home/quem-somos.png" class="img-fluid" alt="Fotos do ambiente do Pólen" />
-          </div>
+            <li class="nav-item flex-grow-1">
+              <a class="nav-link" href="ecossistema.html"> ECOSSISTEMA </a>
+            </li>
+
+            <li class="nav-item flex-grow-1">
+              <a class="nav-link" href="contatos.html"> CONTATO </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
-    <!-- FIM QUEM SOMOS-->
+    </nav>
+    <!-- FIM NAVBAR -->
 
-    <!-- PRINCIPAIS PRODUTOS -->
-    <section class="home-produtos font-default text-light py-5">
-      <div class="container text-center">
-        <h2>PRINCIPAIS PRODUTOS</h2>
+    <!-- INÍCIO DO CONTEÚDO -->
+    <main>
+      <!-- INÍCIO DESTAQUE PRINCIPAL -->
+      <section class="text-light home-destaque py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <img
+                src="assets/images/home/pessoas.png"
+                class="img-fluid"
+                style="border-radius: 60%"
+                alt="Pessoas trabalhando num escritório confortável"
+              />
+            </div>
 
-        <div class="row justify-content-center pt-4">
-          <div class="col-sm-2">
-            <div class="home-produto">
-              <figure>
-                <img src="assets/images/home/icone-coworking.png" class="img-fluid" alt="Ícone de Coworking" />
-              </figure>
+            <div class="col-sm-8 ps-5 align-self-center">
+              <h1>NÓS SOMOS O PÓLEN DE INOVAÇÃO</h1>
 
-              <p>COWORKING</p>
+              <p>
+                Aqui você encontra “O” local perfeito para transformar seus
+                projetos. Com a ajuda do nosso time, empreender fica mais
+                simples e fácil. Você pode chegar no Pólen com uma ideia, e nós
+                vamos te ajudar a sair com um negócio real, rentável e
+                escalável.
+              </p>
             </div>
           </div>
 
-          <div class="col-sm-2">
-            <div class="home-produto">
-              <figure>
-                <img src="assets/images/home/icone-germinacao.png" class="img-fluid" alt="Ícone de Coworking" />
-              </figure>
-
-              <p>GERMINAÇÃO<br>E INCUBAÇÃO</p>
+          <div class="row home-destaque-numeros my-5">
+            <div class="col-sm-3">
+              <h2>+<span class="numerosAnimados">1500</span></h2>
+              <p>HORAS DE<br />MENTORIAS</p>
             </div>
-          </div>
 
-          <div class="col-sm-2">
-            <div class="home-produto">
-              <figure>
-                <img src="assets/images/home/icone-mentoria.png" class="img-fluid" alt="Ícone de Coworking" />
-              </figure>
-
-              <p>MENTORIAS</p>
+            <div class="col-sm-3 home-destaque-borda">
+              <h2>+<span class="numerosAnimados">200</span></h2>
+              <p>STARTUPS NO<br />ECOSSISTEMA</p>
             </div>
-          </div>
 
-          <div class="col-sm-2">
-            <div class="home-produto">
-              <figure>
-                <img src="assets/images/home/icone-podcasts.png" class="img-fluid" alt="Ícone de Coworking" />
-              </figure>
-
-              <p>PRODUÇÃO DE<br>PODCASTS</p>
+            <div class="col-sm-3 home-destaque-borda">
+              <h2>+<span class="numerosAnimados">450</span></h2>
+              <p>EMPRESAS<br />ABERTAS</p>
             </div>
-          </div>
 
-          <div class="col-sm-2">
-            <div class="home-produto">
-              <figure>
-                <img src="assets/images/home/icone-imersoes.png" class="img-fluid" alt="Ícone de Coworking" />
-              </figure>
-
-              <p>IMERSÕES<br>INTERNACIONAIS</p>
+            <div class="col-sm-3 home-destaque-borda">
+              <h2>+<span class="numerosAnimados">10</span></h2>
+              <p>PAÍSES<br />CONECTADOS</p>
             </div>
           </div>
         </div>
+      </section>
+      <!-- FIM DESTAQUE PRINCIPAL -->
 
-        <p class="text-center">
-          <a href="produtos.html" class="btn btn-polen-branco">
-            OUTROS PRODUTOS
-          </a>
-        </p>
-      </div>
-    </section>
-    <!-- FIM PRINCIPAIS PRODUTOS -->
+      <!-- INÍCIO QUEM SOMOS -->
+      <section class="home-quemsomos font-default text-color-default py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 align-self-center">
+              <h2>QUEM SOMOS?</h2>
 
-    <!-- INÍCIO FAVELA INOVA -->
-    <section class="home-quemsomos font-default text-color-default py-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-sm-4">
-            <img src="assets/images/home/favela-inova.png" class="img-fluid" alt="Fotos do ambiente do Pólen" />
-          </div>
+              <p class="text-justify">
+                O Pólen - Polo de Inovação da UNISUAM é um hub voltado para
+                empreendedores e startups. Aqui contamos com uma equipe de
+                profissionais multidisciplinares nacionais e internacionais com
+                o objetivo de transformar ideias em negócios rentáveis.
+              </p>
 
-          <div class="col-sm-4 align-self-center">
-            <h2>PROGRAMA FAVELA INOVA</h2>
+              <p class="text-center">
+                <a href="quemSomos.html" class="btn btn-polen">
+                  VEM CONHECER A GENTE
+                </a>
+              </p>
+            </div>
 
-            <p class="text-justify">
-              O Favela Inova é voltado para jovens de 18 a 29 anos, moradores de comunidades e bairros periféricos da
-              cidade do Rio de Janeiro agora, com edição voltada para Niterói.
-              O projeto é direcionado para pessoas que tenham uma proposta de negócio, ideia de projeto ou já estejam
-              num estado mais avançado de estruturação da empresa/proposta.
-            </p>
-
-            <p class="text-center">
-              <a href="favelaInova.html" class="btn btn-polen">
-                SAIBA MAIS
-              </a>
-            </p>
+            <div class="col-sm-4">
+              <img
+                src="assets/images/home/quem-somos.png"
+                class="img-fluid"
+                alt="Fotos do ambiente do Pólen"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- FIM FAVELA INOVA -->
+      </section>
+      <!-- FIM QUEM SOMOS-->
 
-    <!-- ECOSSISTEMA POLEN -->
-    <section class="home-ecossistema py-5">
-      <div class="container">
-        <div class="home-ecossistema-box p-5">
-          <h2 class="text-center">ECOSSISTEMA PÓLEN</h2>
+      <!-- PRINCIPAIS PRODUTOS -->
+      <section class="home-produtos font-default text-light py-5">
+        <div class="container text-center">
+          <h2>PRINCIPAIS PRODUTOS</h2>
 
-          <h3>Residentes</h3>
+          <div class="row justify-content-center pt-4">
+            <div class="col-sm-2">
+              <div class="home-produto">
+                <figure>
+                  <img
+                    src="assets/images/home/icone-coworking.png"
+                    class="img-fluid"
+                    alt="Ícone de Coworking"
+                  />
+                </figure>
 
-          <div class="colecao-logos">
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/arch-studio.png" />
-            </a>
+                <p>COWORKING</p>
+              </div>
+            </div>
 
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/teraobra.png" />
-            </a>
+            <div class="col-sm-2">
+              <div class="home-produto">
+                <figure>
+                  <img
+                    src="assets/images/home/icone-germinacao.png"
+                    class="img-fluid"
+                    alt="Ícone de Coworking"
+                  />
+                </figure>
 
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/super-telhados.png" />
-            </a>
+                <p>GERMINAÇÃO<br />E INCUBAÇÃO</p>
+              </div>
+            </div>
 
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/jgp.png" />
-            </a>
+            <div class="col-sm-2">
+              <div class="home-produto">
+                <figure>
+                  <img
+                    src="assets/images/home/icone-mentoria.png"
+                    class="img-fluid"
+                    alt="Ícone de Coworking"
+                  />
+                </figure>
 
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/investe-favela.png" />
-            </a>
-          </div>
+                <p>MENTORIAS</p>
+              </div>
+            </div>
 
-          <h3>Startups</h3>
+            <div class="col-sm-2">
+              <div class="home-produto">
+                <figure>
+                  <img
+                    src="assets/images/home/icone-podcasts.png"
+                    class="img-fluid"
+                    alt="Ícone de Coworking"
+                  />
+                </figure>
 
-          <div class="colecao-logos">
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/gudi-hud.png" />
-            </a>
-            <a href="#">
-              <img class="img-fluid" src="assets/parceiros-logos/praqmfaz.png" />
-            </a>
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/sao-carlos.png" />
-            </a>
+                <p>PRODUÇÃO DE<br />PODCASTS</p>
+              </div>
+            </div>
 
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/multimei.png" />
-            </a>
+            <div class="col-sm-2">
+              <div class="home-produto">
+                <figure>
+                  <img
+                    src="assets/images/home/icone-imersoes.png"
+                    class="img-fluid"
+                    alt="Ícone de Coworking"
+                  />
+                </figure>
 
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/o.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/justa-causa.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/moleza.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/viaconsultas.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/plific.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/gee-periferia-digital.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/agencia-lume.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/guiadas-urbanas.png" />
-            </a>
-
-            <a href="#">
-              <img class="img-fluid" src="assets/images/home/ecossistema/empreender-brasil.png" />
-            </a>
+                <p>IMERSÕES<br />INTERNACIONAIS</p>
+              </div>
+            </div>
           </div>
 
           <p class="text-center">
-            <a href="ecossistema.html" class="btn btn-polen">
-              DESCUBRA COMO FAZER PARTE DO NOSSO ECOSSISTEMA
+            <a href="produtos.html" class="btn btn-polen-branco">
+              OUTROS PRODUTOS
             </a>
           </p>
         </div>
-      </div>
-    </section>
-    <!-- FIM ECOSSISTEMA POLEN -->
+      </section>
+      <!-- FIM PRINCIPAIS PRODUTOS -->
 
-    <!-- INÍCIO DEPOIMENTOS -->
-    <section class="home-depoimentos text-light py-5">
-      <div>
+      <!-- INÍCIO FAVELA INOVA -->
+      <section class="home-quemsomos font-default text-color-default py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-xxl-8">
-              <p class="simbolo-aspas">“</p>
-              <p class="texto-depoimento text-justify">
-                O Pólen tem sido minha segunda casa desde que decidi abrir minha empresa... 
-                Fui surpreendido com o espírito colaborativo dos envolvidos no espaço. 
-                Eles estão sempre criando novas maneiras de fazer as empresas do ecossistema interagirem e criarem oportunidades de novos negócios.
-              </p>
-              <p class="text-end">
-                João Paulo, CEO Tera Obra
-              </p>
+          <div class="row justify-content-center">
+            <div class="col-sm-4">
+              <img
+                src="assets/images/home/favela-inova.png"
+                class="img-fluid"
+                alt="Fotos do ambiente do Pólen"
+              />
             </div>
 
-            <div class="col-lg-4 col-xxl-4 align-self-end">
-              <figure>
-                <img src="assets/images/home/foto-depoimento1-removebg-preview.png" class="img-fluid" />
-              </figure>
+            <div class="col-sm-4 align-self-center">
+              <h2>PROGRAMA FAVELA INOVA</h2>
+
+              <p class="text-justify">
+                O Favela Inova é voltado para jovens de 18 a 29 anos, moradores
+                de comunidades e bairros periféricos da cidade do Rio de Janeiro
+                agora, com edição voltada para Niterói. O projeto é direcionado
+                para pessoas que tenham uma proposta de negócio, ideia de
+                projeto ou já estejam num estado mais avançado de estruturação
+                da empresa/proposta.
+              </p>
+
+              <p class="text-center">
+                <a href="favelaInova.html" class="btn btn-polen">
+                  SAIBA MAIS
+                </a>
+              </p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- FIM FAVELA INOVA -->
 
-      <div>
+      <!-- ECOSSISTEMA POLEN -->
+      <section class="home-ecossistema py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-xxl-8">
-              <p class="simbolo-aspas">“</p>
-              <p class="texto-depoimento text-justify">
-                Participar da primeira edição do Favela Inova Niterói me proporcionou uma experiência única não só pelo conteúdo oferecido, 
-                mas também pela valorização de startups que se originaram nas comunidades da cidade.  
-                A equipe Pólen trabalhou incansavelmente para buscar resolver qualquer problema que surgisse pelo caminho!    
-                Como fundadora do Circuito Kids posso afirmar que o Favela Inova trouxe uma outra visão sobre empreendedorismo, é um prazer fazer parte do ecossistema.
-              </p>
-              <p class="text-end">
-                Ana Carolina, Circuito Kids
-              </p>
-            </div>
+          <div class="home-ecossistema-box p-5">
+            <h2 class="text-center">ECOSSISTEMA PÓLEN</h2>
 
-            <div class="col-lg-4 col-xxl-4 align-self-end">
-              <figure>
-                <img src="assets/images/home/[removal.ai]_tmp-61f19eb5418e6.png" class="img-fluid" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-xxl-8">
-              <p class="simbolo-aspas">“</p>
-              <p class="texto-depoimento text-justify">
-                O Pólen é muito mais do que um espaço de escritórios compartilhados.<br> 
-                Ao colocar uma empresa do lado da outra, promover eventos, entregar uma espécie de "rede social física" para os membros se conectarem, 
-                os negócios entre si crescem à medida que as relações se estreitam, ganhando novas parcerias de trabalhos bem como amizades. <br>
-                Outro fato muito importante é estarmos conectados com a instituição UNISUAM onde temos uma gama de profissionais/professores 
-                além dos alunos que podem ser nossos futuros estagiários/profissionais.
-              </p>
-              <p class="text-end">
-                Christiane Corrêa, Arch Studio 3D
-              </p>
-            </div>
-
-            <div class="col-lg-4 col-xxl-4 align-self-end">
-              <figure>
-                <img src="assets/images/home/foto-depoimento3-removebg-preview.png" class="img-fluid" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-polenzitos">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-xxl-8">
-              <p class="simbolo-aspas">“</p>
-              <p class="texto-depoimento text-justify">
-                Estamos no Pólen a 01 ano e já estamos colhendo bons frutos, a experiência esta sendo ótima. 
-                O estímulo ao ambiente de negócios e as parcerias entre os integrantes fazem toda a diferença.
-              </p>
-              <p class="text-end">
-                Waldir Gomes, Super Telhados
-              </p>
-            </div>
-
-            <div class="col-lg-4 col-xxl-4 align-self-end">
-              <figure>
-                <img src="assets/images/home/f12a18f7-90d6-47d7-bdc5-9c1e9d64d5b9-removebg-preview.png" class="img-fluid" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- FIM DEPOIMENTOS -->
-
-    <!-- INÍCIO DOS PARCEIROS -->
-    <section class="home-ecossistema py-5">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-sm-12">
-            <h2>PARCEIROS</h2>
+            <h3>Residentes</h3>
 
             <div class="colecao-logos">
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/unisuam.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/arch-studio.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/nhd.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/teraobra.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/arariboia.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/super-telhados.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/investe-favela.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/jgp.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/aws.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/investe-favela.png"
+                />
+              </a>
+            </div>
+
+            <h3>Startups</h3>
+
+            <div class="colecao-logos">
+              <a href="#">
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/gudi-hud.png"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="img-fluid"
+                  src="assets/parceiros-logos/praqmfaz.png"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/sao-carlos.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/ibm.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/multimei.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/errejota.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/o.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/huawei.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/justa-causa.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/vai-na-web.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/moleza.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/acierj.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/viaconsultas.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/arturo-jauretche.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/plific.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/lamparina.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/gee-periferia-digital.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/genera.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/agencia-lume.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/fabrica-startups.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/guiadas-urbanas.png"
+                />
               </a>
 
               <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/distrito.png" />
+                <img
+                  class="img-fluid"
+                  src="assets/images/home/ecossistema/empreender-brasil.png"
+                />
               </a>
+            </div>
 
-              <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/hacking-rio.png" />
+            <p class="text-center">
+              <a href="ecossistema.html" class="btn btn-polen">
+                DESCUBRA COMO FAZER PARTE DO NOSSO ECOSSISTEMA
               </a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- FIM ECOSSISTEMA POLEN -->
 
-              <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/juvrio.png" />
-              </a>
+      <!-- INÍCIO DEPOIMENTOS -->
+      <section class="home-depoimentos text-light py-5">
+        <div>
+          <div class="bg-polenzitos">
+            <div class="container">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-lg-6 col-xxl-8">
+                        <p class="simbolo-aspas">“</p>
+                        <p class="texto-depoimento text-justify">
+                          “O Pólen tem sido minha segunda casa desde que decidi
+                          abrir minha empresa... Fui surpreendido com o espírito
+                          colaborativo dos envolvidos no espaço. Eles estão
+                          sempre criando novas maneiras de fazer as empresas do
+                          ecossistema interagirem e criarem oportunidades de
+                          novos negócios.”
+                        </p>
+                        <p class="text-end">João Paulo, CEO Tera Obra</p>
+                      </div>
 
-              <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/telecall.png" />
-              </a>
+                      <div class="col-lg-4 col-xxl-4 align-self-end">
+                        <figure>
+                          <img
+                            src="assets/images/home/Depoimentos/Depoimento1novo.png"
+                            class="img-fluid"
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-6 col-xxl-8">
+                        <p class="simbolo-aspas">“</p>
+                        <p class="texto-depoimento text-justify">
+                          “Participar da primeira edição do Favela Inova Niterói
+                          me proporcionou uma experiência única não só pelo
+                          conteúdo oferecido, mas também pela valorização de
+                          startups que se originaram nas comunidades da cidade.
+                          A equipe Pólen trabalhou incansavelmente para buscar
+                          resolver qualquer problema que surgisse pelo caminho!
+                          Como fundadora do Circuito Kids posso afirmar que o
+                          Favela Inova trouxe uma outra visão sobre
+                          empreendedorismo, é um prazer fazer parte do
+                          ecossistema.”
+                        </p>
+                        <p class="text-end">Ana Carolina, Circuito Kids</p>
+                      </div>
 
-              <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/digital-innovation.png" />
-              </a>
+                      <div class="col-lg-4 col-xxl-4 align-self-end">
+                        <figure>
+                          <img
+                            src="assets/images/home/Depoimentos/Depoimento2novo.png"
+                            class="img-fluid"
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-6 col-xxl-8">
+                        <p class="simbolo-aspas">“</p>
+                        <p class="texto-depoimento text-justify">
+                          “O Pólen é muito mais do que um espaço de escritórios
+                          compartilhados. Ao colocar uma empresa do lado da
+                          outra, promover eventos, entregar uma espécie de "rede
+                          social física" para os membros se conectarem, os
+                          negócios entre si crescem à medida que as relações se
+                          estreitam, ganhando novas parcerias de trabalhos bem
+                          como amizades. Outro fato muito importante é estarmos
+                          conectados com a instituição UNISUAM onde temos uma
+                          gama de profissionais/professores além dos alunos que
+                          podem ser nossos futuros estagiários/profissionais.”
+                        </p>
+                        <p class="text-end">
+                          Christiane Corrêa, Arch Studio 3D
+                        </p>
+                      </div>
 
-              <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/google.png" />
-              </a>
+                      <div class="col-lg-4 col-xxl-4 align-self-end">
+                        <figure>
+                          <img
+                            src="assets/images/home/Depoimentos/Depoimento3novo.png"
+                            class="img-fluid"
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-6 col-xxl-8">
+                        <p class="simbolo-aspas">“</p>
+                        <p class="texto-depoimento text-justify">
+                          “Estamos no Pólen a 01 ano e já estamos colhendo bons
+                          frutos, a experiência esta sendo ótima. O estímulo ao
+                          ambiente de negócios e as parcerias entre os
+                          integrantes fazem toda a diferença.”
+                        </p>
+                        <p class="text-end">Waldir Gomes, Super Telhados</p>
+                      </div>
 
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/archStudio3d.png" />
-              </a>
-              
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/grupoAliança.png" />
-              </a>
-
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/JPGcred.png" />
-              </a>
-
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/praqmfaz.png" />
-              </a>
-
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/superTelhados.png" />
-              </a>
-
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/teraObra.png" />
-              </a>
-
-              <a href="#">
-                <img class="img-fluid" src="assets/parceiros-logos/VictorHugo.jpg" />
-              </a>
-
-              <a href="#">
-                <img class="img-fluid" src="assets/images/home/parceiros/universidade-porto.png" />
-              </a>
+                      <div class="col-lg-4 col-xxl-4 align-self-end">
+                        <figure>
+                          <img
+                            src="assets/images/home/Depoimentos/Depoimento4novo.png"
+                            class="img-fluid"
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- FIM DOS PARCEIROS -->
-  </main>
-  <!-- FIM DO CONTEÚDO -->
 
-  <!-- FOOTER -->
-  <footer class="mt-5 footer py-5 text-light">
-    <div class="container">
-      <div class="d-flex flex-column flex-sm-row">
-        <div class="footer-logo align-self-center align-self-sm-start">
-          <figure>
-            <img src="assets/images/logo.png" class="img-fluid" alt="Logo do Pólen" />
-          </figure>
-
-          <ul class="footer-social">
-            <li><a href="https://www.instagram.com/polen.unisuam/"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://open.spotify.com/show/6xXumIawt7MAYyW7o5GjSw?si=H34kntoLScmMzPtkTSZrzg&utm_source=copy-link"><i class="fab fa-spotify"></i></a></li>
-            <li><a href="https://br.linkedin.com/company/polen-unisuam"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UChWCgAnhhUx_UK_xg48POUQ/featured"><i class="fab fa-youtube"></i></a></li>
-          </ul>
-        </div>
-
-        <div class="flex-grow-1">
-
-        </div>
-
-        <div class="footer-links mt-3 mt-sm-0">
-          <h5>Institucional</h5>
-
-          <ul class="list-unstyled text-light">
-            <li><a href="">coworking</a><li>
-            <li><a href="ecossistema.html">ecossistema</a></li>
-            <li><a href="contatos.html">contato</a></li>
-            <li><a href="">política de privacidade</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-address mt-3 mt-sm-0 ms-sm-5">
-          <h5>Nosso endereço</h5>
-          <address class="footer-address">
-            Av. Paris, n° 121 Bonsucesso<br>
-            Rio de Janeiro, RJ, CEP 21041-020
-          </address>
-
-          <p class="mt-0">
-            <a href="https://g.page/polenunisuam?share"><strong>Encontre-nos no Maps</strong></a>
-          </p>
+        <!--<div>
+        <div class="container">
+          
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- FIM FOOTER -->
 
-  <!-- SCRIPTS FOOTER -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
+      <div>
+        <div class="container">
+          
+        </div>
+      </div> 
+    
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({ once: true });
-  </script>
+      <div class="bg-polenzitos">
+        <div class="container">
+          
+        </div>
+      </div>
+    -->
+      </section>
+      <!-- FIM DEPOIMENTOS -->
 
-  <script src="assets/js/index.js"></script>
-</body>
+      <!-- INÍCIO DOS PARCEIROS -->
+      <section class="home-ecossistema py-5">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-12">
+              <h2>PARCEIROS</h2>
 
+              <div class="colecao-logos">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/unisuam.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/nhd.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/arariboia.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/investe-favela.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/aws.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/ibm.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/errejota.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/huawei.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/vai-na-web.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/acierj.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/arturo-jauretche.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/lamparina.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/genera.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/fabrica-startups.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/distrito.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/hacking-rio.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/juvrio.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/telecall.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/digital-innovation.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/google.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/archStudio3d.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/grupoAliança.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/JPGcred.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/praqmfaz.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/superTelhados.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/teraObra.png"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/parceiros-logos/VictorHugo.jpg"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/home/parceiros/universidade-porto.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FIM DOS PARCEIROS -->
+    </main>
+    <!-- FIM DO CONTEÚDO -->
+
+    <!-- FOOTER -->
+    <footer class="mt-5 footer py-5 text-light">
+      <div class="container">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="footer-logo align-self-center align-self-sm-start">
+            <figure>
+              <img
+                src="assets/images/logo.png"
+                class="img-fluid"
+                alt="Logo do Pólen"
+              />
+            </figure>
+
+            <ul class="footer-social">
+              <li>
+                <a href="https://www.instagram.com/polen.unisuam/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://open.spotify.com/show/6xXumIawt7MAYyW7o5GjSw?si=H34kntoLScmMzPtkTSZrzg&utm_source=copy-link"
+                  ><i class="fab fa-spotify"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://br.linkedin.com/company/polen-unisuam"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UChWCgAnhhUx_UK_xg48POUQ/featured"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex-grow-1"></div>
+
+          <div class="footer-links mt-3 mt-sm-0">
+            <h5>Institucional</h5>
+
+            <ul class="list-unstyled text-light">
+              <li><a href="">coworking</a></li>
+              <li></li>
+              <li><a href="ecossistema.html">ecossistema</a></li>
+              <li><a href="contatos.html">contato</a></li>
+              <li><a href="">política de privacidade</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-address mt-3 mt-sm-0 ms-sm-5">
+            <h5>Nosso endereço</h5>
+            <address class="footer-address">
+              Av. Paris, n° 121 Bonsucesso<br />
+              Rio de Janeiro, RJ, CEP 21041-020
+            </address>
+
+            <p class="mt-0">
+              <a href="https://g.page/polenunisuam?share"
+                ><strong>Encontre-nos no Maps</strong></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FIM FOOTER -->
+
+    <!-- SCRIPTS FOOTER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
+
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>
